@@ -6,3 +6,7 @@ main{
     width: 15px !important;
     left: 15px !important;
 }
+
+footer{
+    background-color: aqua;
+}
