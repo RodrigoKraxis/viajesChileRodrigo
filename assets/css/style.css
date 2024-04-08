@@ -63,7 +63,7 @@ main {
 }
 
 #exampleModal{
-    color: black;
+    color: black !important;
 }
 
 footer {
