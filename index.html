@@ -159,7 +159,9 @@
             <div class="row gy-4">
                 <div class="col-md-3 d-flex justify-content-center">
                     <div class="card text-bg-primary h-100" style="width: 18rem;">
-                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
+
+                        <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." id="tarjeta1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Titulo de imagen 1">
+
                         <div class="card-body" style="background-color:rgb(0, 139, 139);">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
@@ -168,7 +170,10 @@
                 </div>
                 <div class="col-md-3 d-flex justify-content-center">
                     <div class="card text-bg-primary h-100" style="width: 18rem;">
-                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+
+                        <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." id="tarjeta2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Titulo de imagen 2">
+
+
                         <div class="card-body" style="background-color:rgb(0, 139, 139);">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
@@ -177,7 +182,11 @@
                 </div>
                 <div class="col-md-3 d-flex justify-content-center">
                     <div class="card text-bg-primary h-100" style="width: 18rem;">
-                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+
+                        <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." id="tarjeta3" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Titulo de imagen 3">
+
+                       
+
                         <div class="card-body" style="background-color:rgb(0, 139, 139);">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
@@ -186,7 +195,11 @@
                 </div>
                 <div class="col-md-3 d-flex justify-content-center">
                     <div class="card text-bg-primary h-100" style="width: 18rem;">
-                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+
+                        <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." id="tarjeta4" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Titulo de imagen 4">
+
+                  
+
                         <div class="card-body" style="background-color:rgb(0, 139, 139);">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the card's content.</p>
@@ -215,7 +228,29 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="mb-3">
-                <button type="button" class="btn btn-primary" style="background-color:rgb(0, 139, 139);">Enviar</button>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: rgb(0, 139, 139);">
+                    Enviar
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Muchas gracias</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Nos contactaremos pronto a su correo</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
             </div>
         </section>
 

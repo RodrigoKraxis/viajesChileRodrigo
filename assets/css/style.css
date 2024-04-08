@@ -30,8 +30,6 @@ main {
     width: 2.5rem !important;
 }
 
-
-
 .carousel-item img {
     max-width: 100%;
 
@@ -62,6 +60,10 @@ main {
 
 #formulario {
     margin-top: 1vh;
+}
+
+#exampleModal{
+    color: black;
 }
 
 footer {
